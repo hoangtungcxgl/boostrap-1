@@ -193,5 +193,43 @@ header {
     padding-right: 50px;
 }
 /* Hết Phần 2.3. Giá sách */
+/* Phần 2.4: Download */
+
+.section-3 {
+    background: linear-gradient(to bottom,#dd2476, #ff512f);
+}
+.section-3-body {
+    padding: 50px 20px;
+}
+.section-3-body .col-md-12 h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.section-3-body .col-md-12 p {
+    color: #fff;
+}
+.section-3-body > div:nth-child(1) {
+    margin-bottom: 30px;
+}
+.section-3-body .desktop {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 100rem;
+}
+
+.section-3-body .desktop i {
+    font-size: 50px ;
+    margin-right: 20px;
+    
+}
+.section-3-body .desktop h3 {
+    margin: 0;
+}
+.section-3-body .desktop p {
+    margin: 0;
+}
+
+/* Hết Phần 2.4: Download */
 
 /* Hết Phần 2: Main */
