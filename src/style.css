@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+/* Phần 1: header */
+
+/* Phần 1.1: Menu */
+header {
+    background: linear-gradient(to bottom, #dd2476, #ff512f);
+    padding: 10px 0 50px 0;
+}
+
+
+.navbar > a {
+    margin-left: 200px;
+    font-size: 34px;
+}
+.navbar > a > i {
+    font-size: 55px;
+    padding-right: 10px;
+}
+
+/* .navbar a {
+    color: #fff;
+} */
+.nav-link {
+    color: #fff;
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar a:hover {
+    color: #000;
+}
+.navbar li {
+    padding: 0 20px;
+}
+
+.navbar > div:nth-child(2) > ul {
+    margin-right: 200px;
+}
+.navbar > div:nth-child(2) > ul > li > a {
+    font-size: 20px;
+}
+.dropdown-hover > div:nth-child(2) {
+    margin: 0;
+}
+.dropdown-hover:hover div:nth-child(2) {
+    display: block;
+}
+
+/* Hết Phần 1.1: Menu */
+/* Phần 2: info menu */
+.info-menu > div:nth-child(1) {
+    position: relative;
+}
+.info-menu > div:nth-child(1) > div {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    color: #fff;
+}
+.info-menu > div:nth-child(1) > div > h6 {
+    font-size: 26px;
+}
+.info-menu > div:nth-child(1) > div > h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.info-menu > div:nth-child(1) > div > p {
+    font-size: 20px;
+}
+.info-menu > div:nth-child(1) > div > button {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    
+}
+
+/* Hết Phần 1.2: info menu */
+
+/* Hết Phần 1: header */
+/* ---------------------- */
+/* Phần 2: Main */
+
+/* Phần 2.1: Giới thiệu tác giả */
+.section-1 {
+    padding: 100px 0;
+}
+.img-opacity {
+   opacity: 0.7;
+}
+.box-panel {
+    position: relative;
+}
+.panel {
+    background-color: #fff;
+    padding: 100px 40px 100px 80px;
+    box-shadow: 0 0 10px 10px rgba(32, 32, 32, 0.08);
+    position: absolute;
+    right: 0;  
+    top: 100px; 
+    width: 650px;
+    border-radius: 5px;
+}
+.panel > h1 {
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+.panel > p {
+    margin-bottom: 15px;
+    color: #807f7f;
+    font-size: 18px;
+}
+/* Hết Phần 2.1: Giới thiệu tác giả */
+/* Phan 2.2 */
+.section-2 {
+    padding-bottom: 100px;
+}
+.content {
+    background-image: url(../assets/pexels-photo-452738.jpeg);
+    background-position-y: -220px;
+    padding: 100px 0;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+.overlay {
+    background-color: #000;
+    position: absolute;
+    inset: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.section-2-content-2 {
+    margin-top: -80px;
+    /* margin-bottom: 100px; */
+}
+
+.section-2-content-2 div {
+    background-color: #fff;
+    box-shadow: 0 0 10px 10px rgba(255, 99, 71, 0.25) ;
+    padding: 20px 50px;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+}
+.section-2-content-2 div h1 {
+    font-size: 90px;
+    color: #ff6347;
+}
+.section-2-content-2 div p {
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Het phan 2.2 */
+/* Phần 2.3. Giá sách */
+
+.price-books > div:nth-child(1) {
+    padding: 100px;
+} 
+.price-books > div:nth-child(1) > h1 {
+    font-weight: 700;
+    
+}
+.price-books > div:nth-child(1) > p {
+    font-size: 26px;
+    color: #808080;
+}
+.title .card-title {
+    font-size: 26px;
+    font-weight: 500;
+}
+.cards > div > div {
+    margin: 0 20px;
+    width: 22rem;
+    border-radius: 10px;
+}
+.cards .card-text {
+    color: gray;
+    padding: 20px 70px;
+}
+.pricing > h1 {
+    font-size: 70px;
+    margin: 50px 0;
+}
+.pricing > a {
+    margin-bottom: 50px;
+    border-radius: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* Hết Phần 2.3. Giá sách */
+
+/* Hết Phần 2: Main */
